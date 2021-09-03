@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="lv_defined_p">
+    <attributes class="edge" mode="static">
+      <attribute id="3" title="edge_type" type="long" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="nodes" type="string" />
+      <attribute id="1" title="stms" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>20/02/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[0]" label="BB[0]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[8]" label="BB[8]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Return@d7d']" />
+          <attvalue for="1" value="['return']" />
+          <attvalue for="2" value="779" />
+        </attvalues>
+      </node>
+      <node id="BB[-1]" label="BB[-1]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[1]" label="BB[1]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@d59']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; lv']" />
+          <attvalue for="2" value="773" />
+        </attvalues>
+      </node>
+      <node id="BB[2]" label="BB[2]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Return@d5e']" />
+          <attvalue for="1" value="['return']" />
+          <attvalue for="2" value="773" />
+        </attvalues>
+      </node>
+      <node id="BB[3]" label="BB[3]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@d61']" />
+          <attvalue for="1" value="['(int) = (int)']" />
+          <attvalue for="2" value="775" />
+        </attvalues>
+      </node>
+      <node id="BB[4]" label="BB[4]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@d68', 'io.shiftleft.codepropertygraph.generated.nodes.Call@d65']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; rlen', '(bool) = (int) &lt; (ANY)']" />
+          <attvalue for="2" value="775" />
+        </attvalues>
+      </node>
+      <node id="BB[5]" label="BB[5]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@d75', 'io.shiftleft.codepropertygraph.generated.nodes.Call@d73', 'io.shiftleft.codepropertygraph.generated.nodes.Call@d71']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; reps', '(ANY) = (ANY) [ (int) ]', '(mrb_bool) = lv_defined_p( )']" />
+          <attvalue for="2" value="776" />
+        </attvalues>
+      </node>
+      <node id="BB[6]" label="BB[6]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@d6c']" />
+          <attvalue for="1" value="['(int) = ++(int)']" />
+          <attvalue for="2" value="775" />
+        </attvalues>
+      </node>
+      <node id="BB[7]" label="BB[7]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Return@d7b']" />
+          <attvalue for="1" value="['return']" />
+          <attvalue for="2" value="776" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[0]" target="BB[1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="BB[8]" target="BB[-1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="BB[1]" target="BB[2]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="BB[1]" target="BB[3]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="BB[1]" target="BB[3]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="BB[1]" target="BB[4]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="BB[2]" target="BB[-1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="BB[3]" target="BB[4]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="BB[3]" target="BB[4]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="BB[3]" target="BB[6]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="BB[3]" target="BB[5]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="BB[4]" target="BB[5]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="BB[4]" target="BB[5]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="BB[4]" target="BB[8]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="BB[5]" target="BB[6]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="BB[5]" target="BB[6]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="BB[5]" target="BB[7]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="BB[5]" target="BB[4]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="BB[6]" target="BB[4]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="BB[7]" target="BB[-1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

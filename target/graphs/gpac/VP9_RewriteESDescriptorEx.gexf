@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="VP9_RewriteESDescriptorEx">
+    <attributes class="edge" mode="static">
+      <attribute id="3" title="edge_type" type="long" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="nodes" type="string" />
+      <attribute id="1" title="stms" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>15/05/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[0]" label="BB[0]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[2]" label="BB[2]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1f6c', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f69', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f67']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd', '(GF_Descriptor *) =  (GF_Descriptor *) (ANY)', '(ANY) = gf_odf_desc_del( )']" />
+          <attvalue for="2" value="1413" />
+        </attvalues>
+      </node>
+      <node id="BB[4]" label="BB[4]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1f94', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f92', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f90', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f8e']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd', '(ANY) = (ANY) -&gt; decoderConfig', '(ANY) = (ANY) -&gt; objectTypeIndication', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="1417" />
+        </attvalues>
+      </node>
+      <node id="BB[10]" label="BB[10]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1fa2', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fa0', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f9e', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f9c']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd', '(ANY) = (ANY) -&gt; decoderConfig', '(ANY) = (ANY) -&gt; objectTypeIndication', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="1419" />
+        </attvalues>
+      </node>
+      <node id="BB[5]" label="BB[5]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[7]" label="BB[7]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1fdd']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; vp_config']" />
+          <attvalue for="2" value="1427" />
+        </attvalues>
+      </node>
+      <node id="BB[8]" label="BB[8]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1fea', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fe8', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fe6', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fe3']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; vp_config', '(ANY) = (ANY) -&gt; config', '(ANY) = VP_DuplicateConfig( )', '(GF_VPConfig *) = (ANY)']" />
+          <attvalue for="2" value="1428" />
+        </attvalues>
+      </node>
+      <node id="BB[-1]" label="BB[-1]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[11]" label="BB[11]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1f5d', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f5b', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f58']" />
+          <attvalue for="1" value="['(GF_SampleEntryBox *) =  (GF_SampleEntryBox *) (GF_MPEGVisualSampleEntryBox *)', '(ANY) = gf_isom_sample_entry_get_bitrate( )', '(GF_BitRateBox *) = (ANY)']" />
+          <attvalue for="2" value="1411" />
+        </attvalues>
+      </node>
+      <node id="BB[12]" label="BB[12]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1f63']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd']" />
+          <attvalue for="2" value="1413" />
+        </attvalues>
+      </node>
+      <node id="BB[13]" label="BB[13]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1f72', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f76', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f70']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd', '(ANY) = gf_odf_desc_esd_new( )', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="1414" />
+        </attvalues>
+      </node>
+      <node id="BB[14]" label="BB[14]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1f7f', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f7d', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f7b', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f79']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd', '(ANY) = (ANY) -&gt; decoderConfig', '(ANY) = (ANY) -&gt; streamType', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="1415" />
+        </attvalues>
+      </node>
+      <node id="BB[15]" label="BB[15]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1f89', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f87']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; type', '(bool) = (ANY) == (ANY)']" />
+          <attvalue for="2" value="1416" />
+        </attvalues>
+      </node>
+      <node id="BB[16]" label="BB[16]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1fb2', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fb0', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fae', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fb8', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fac']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd', '(ANY) = (ANY) -&gt; decoderConfig', '(ANY) = (ANY) -&gt; bufferSizeDB', '(ANY) = (GF_BitRateBox *) -&gt; bufferSizeDB', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="1422" />
+        </attvalues>
+      </node>
+      <node id="BB[17]" label="BB[17]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1fc2', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fc0', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fbe', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fc8', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fbc']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd', '(ANY) = (ANY) -&gt; decoderConfig', '(ANY) = (ANY) -&gt; avgBitrate', '(ANY) = (GF_BitRateBox *) -&gt; avgBitrate', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="1423" />
+        </attvalues>
+      </node>
+      <node id="BB[18]" label="BB[18]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1fd2', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fd0', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fce', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fd8', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fcc']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd', '(ANY) = (ANY) -&gt; decoderConfig', '(ANY) = (ANY) -&gt; maxBitrate', '(ANY) = (GF_BitRateBox *) -&gt; maxBitrate', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="1424" />
+        </attvalues>
+      </node>
+      <node id="BB[19]" label="BB[19]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1ffd', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1ffb', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1ff9', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1ff7', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1ff5', 'io.shiftleft.codepropertygraph.generated.nodes.Call@200c', 'io.shiftleft.codepropertygraph.generated.nodes.Call@200a', 'io.shiftleft.codepropertygraph.generated.nodes.Call@2008', 'io.shiftleft.codepropertygraph.generated.nodes.Call@2006', 'io.shiftleft.codepropertygraph.generated.nodes.Call@2004', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1ff2']" />
+          <attvalue for="1" value="['(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd', '(ANY) = (ANY) -&gt; decoderConfig', '(ANY) = (ANY) -&gt; decoderSpecificInfo', '(ANY) = (ANY) -&gt; data', '(ANY *) =  &amp; (ANY)', '(ANY) = (GF_MPEGVisualSampleEntryBox *) -&gt; emul_esd', '(ANY) = (ANY) -&gt; decoderConfig', '(ANY) = (ANY) -&gt; decoderSpecificInfo', '(ANY) = (ANY) -&gt; dataLength', '(ANY *) =  &amp; (ANY)', '(ANY) = gf_odf_vp_cfg_write( )']" />
+          <attvalue for="2" value="1430" />
+        </attvalues>
+      </node>
+      <node id="BB[20]" label="BB[20]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@2014']" />
+          <attvalue for="1" value="['(ANY) = gf_odf_vp_cfg_del( )']" />
+          <attvalue for="2" value="1431" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[0]" target="BB[11]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="BB[2]" target="BB[13]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="BB[4]" target="BB[5]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="BB[10]" target="BB[5]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="BB[5]" target="BB[7]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="BB[5]" target="BB[16]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="BB[7]" target="BB[8]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="BB[7]" target="BB[8]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="BB[7]" target="BB[-1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="BB[8]" target="BB[-1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="BB[8]" target="BB[19]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="BB[8]" target="BB[19]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="BB[8]" target="BB[20]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="BB[11]" target="BB[12]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="BB[11]" target="BB[17]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="BB[11]" target="BB[18]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="BB[11]" target="BB[16]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="BB[12]" target="BB[2]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="BB[12]" target="BB[2]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="BB[12]" target="BB[13]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="BB[13]" target="BB[14]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="BB[13]" target="BB[14]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="BB[13]" target="BB[4]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="BB[13]" target="BB[19]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="BB[13]" target="BB[18]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="BB[13]" target="BB[16]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="BB[13]" target="BB[17]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="BB[13]" target="BB[10]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="BB[14]" target="BB[15]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="BB[15]" target="BB[4]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="BB[15]" target="BB[4]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="BB[15]" target="BB[10]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="BB[15]" target="BB[10]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="BB[16]" target="BB[17]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="BB[17]" target="BB[18]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="BB[18]" target="BB[7]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="BB[19]" target="BB[20]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="BB[20]" target="BB[-1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

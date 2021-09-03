@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="mrb_irep_free">
+    <attributes class="edge" mode="static">
+      <attribute id="3" title="edge_type" type="long" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="nodes" type="string" />
+      <attribute id="1" title="stms" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>20/02/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[0]" label="BB[0]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[-1]" label="BB[-1]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[1]" label="BB[1]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1c2', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1c0']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; flags', '(ANY) = (ANY) &amp; (ANY)']" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="BB[2]" label="BB[2]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Return@1c7']" />
+          <attvalue for="1" value="['return']" />
+          <attvalue for="2" value="144" />
+        </attvalues>
+      </node>
+      <node id="BB[3]" label="BB[3]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1cd', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1cb', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1c9']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; flags', '(ANY) = (ANY) &amp; (ANY)', '(bool) = ! (ANY)']" />
+          <attvalue for="2" value="145" />
+        </attvalues>
+      </node>
+      <node id="BB[4]" label="BB[4]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1d8', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1d5', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1d2']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; iseq', '(void *) =  (void *) (ANY)', '(ANY) = mrb_free( )']" />
+          <attvalue for="2" value="146" />
+        </attvalues>
+      </node>
+      <node id="BB[5]" label="BB[5]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1dd']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; pool']" />
+          <attvalue for="2" value="147" />
+        </attvalues>
+      </node>
+      <node id="BB[6]" label="BB[6]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1e3']" />
+          <attvalue for="1" value="['(int) = (int)']" />
+          <attvalue for="2" value="148" />
+        </attvalues>
+      </node>
+      <node id="BB[11]" label="BB[11]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@217', 'io.shiftleft.codepropertygraph.generated.nodes.Call@214', 'io.shiftleft.codepropertygraph.generated.nodes.Call@211']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; pool', '(void *) =  (void *) (ANY)', '(ANY) = mrb_free( )']" />
+          <attvalue for="2" value="153" />
+        </attvalues>
+      </node>
+      <node id="BB[13]" label="BB[13]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@22c']" />
+          <attvalue for="1" value="['(int) = (int)']" />
+          <attvalue for="2" value="157" />
+        </attvalues>
+      </node>
+      <node id="BB[18]" label="BB[18]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@250', 'io.shiftleft.codepropertygraph.generated.nodes.Call@24d', 'io.shiftleft.codepropertygraph.generated.nodes.Call@24a']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; reps', '(void *) =  (void *) (ANY)', '(ANY) = mrb_free( )']" />
+          <attvalue for="2" value="161" />
+        </attvalues>
+      </node>
+      <node id="BB[7]" label="BB[7]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[9]" label="BB[9]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1e8']" />
+          <attvalue for="1" value="['(int) = (int)++']" />
+          <attvalue for="2" value="148" />
+        </attvalues>
+      </node>
+      <node id="BB[8]" label="BB[8]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@1f5', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f3', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1f1', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1ef', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1ed']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; pool', '(ANY) = (ANY) [ (int) ]', '(ANY) = (ANY) . tt', '(ANY) = (ANY) &amp; (int)', '(bool) = (ANY) == (ANY)']" />
+          <attvalue for="2" value="149" />
+        </attvalues>
+      </node>
+      <node id="BB[14]" label="BB[14]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[16]" label="BB[16]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@231']" />
+          <attvalue for="1" value="['(int) = (int)++']" />
+          <attvalue for="2" value="157" />
+        </attvalues>
+      </node>
+      <node id="BB[15]" label="BB[15]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@238', 'io.shiftleft.codepropertygraph.generated.nodes.Call@236']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; reps', '(ANY) = (ANY) [ (int) ]']" />
+          <attvalue for="2" value="158" />
+        </attvalues>
+      </node>
+      <node id="BB[10]" label="BB[10]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@20a', 'io.shiftleft.codepropertygraph.generated.nodes.Call@208', 'io.shiftleft.codepropertygraph.generated.nodes.Call@206', 'io.shiftleft.codepropertygraph.generated.nodes.Call@204', 'io.shiftleft.codepropertygraph.generated.nodes.Call@201', 'io.shiftleft.codepropertygraph.generated.nodes.Call@1fe']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; pool', '(ANY) = (ANY) [ (int) ]', '(ANY) = (ANY) . u', '(ANY) = irep-&gt;pool[i] . u', '(void *) =  (void *) (ANY)', '(ANY) = mrb_free( )']" />
+          <attvalue for="2" value="150" />
+        </attvalues>
+      </node>
+      <node id="BB[17]" label="BB[17]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@245', 'io.shiftleft.codepropertygraph.generated.nodes.Call@243', 'io.shiftleft.codepropertygraph.generated.nodes.Call@240', 'io.shiftleft.codepropertygraph.generated.nodes.Call@23d']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; reps', '(ANY) = (ANY) [ (int) ]', '(mrb_irep *) =  (mrb_irep *) (ANY)', '(void) = mrb_irep_decref( )']" />
+          <attvalue for="2" value="159" />
+        </attvalues>
+      </node>
+      <node id="BB[20]" label="BB[20]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@221', 'io.shiftleft.codepropertygraph.generated.nodes.Call@21e', 'io.shiftleft.codepropertygraph.generated.nodes.Call@21b']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; syms', '(void *) =  (void *) (ANY)', '(ANY) = mrb_free( )']" />
+          <attvalue for="2" value="155" />
+        </attvalues>
+      </node>
+      <node id="BB[21]" label="BB[21]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@226']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; reps']" />
+          <attvalue for="2" value="156" />
+        </attvalues>
+      </node>
+      <node id="BB[22]" label="BB[22]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@25a', 'io.shiftleft.codepropertygraph.generated.nodes.Call@257', 'io.shiftleft.codepropertygraph.generated.nodes.Call@254']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; lv', '(void *) =  (void *) (ANY)', '(ANY) = mrb_free( )']" />
+          <attvalue for="2" value="163" />
+        </attvalues>
+      </node>
+      <node id="BB[23]" label="BB[23]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@261', 'io.shiftleft.codepropertygraph.generated.nodes.Call@25e']" />
+          <attvalue for="1" value="['(ANY) = (mrb_irep *) -&gt; debug_info', '(ANY) = mrb_debug_info_free( )']" />
+          <attvalue for="2" value="164" />
+        </attvalues>
+      </node>
+      <node id="BB[24]" label="BB[24]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@265']" />
+          <attvalue for="1" value="['(ANY) = mrb_free( )']" />
+          <attvalue for="2" value="165" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[0]" target="BB[1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="BB[1]" target="BB[2]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="BB[1]" target="BB[3]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="BB[1]" target="BB[3]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="BB[1]" target="BB[20]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="BB[1]" target="BB[22]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="BB[1]" target="BB[23]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="BB[1]" target="BB[24]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="BB[1]" target="BB[21]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="BB[1]" target="BB[5]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="BB[2]" target="BB[-1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="BB[3]" target="BB[4]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="BB[3]" target="BB[4]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="BB[3]" target="BB[5]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="BB[4]" target="BB[5]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="BB[5]" target="BB[6]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="BB[5]" target="BB[6]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="BB[5]" target="BB[20]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="BB[5]" target="BB[11]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="BB[6]" target="BB[7]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="BB[6]" target="BB[8]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="BB[6]" target="BB[9]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="BB[6]" target="BB[10]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="BB[11]" target="BB[20]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="BB[13]" target="BB[14]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="BB[13]" target="BB[16]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="BB[13]" target="BB[15]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="BB[13]" target="BB[17]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="BB[18]" target="BB[22]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="BB[7]" target="BB[8]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="BB[7]" target="BB[11]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="BB[9]" target="BB[7]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="BB[8]" target="BB[9]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="BB[8]" target="BB[10]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="BB[8]" target="BB[10]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="BB[14]" target="BB[15]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="BB[14]" target="BB[18]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="BB[16]" target="BB[14]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="BB[15]" target="BB[16]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="BB[15]" target="BB[17]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="BB[15]" target="BB[17]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="BB[10]" target="BB[9]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="BB[17]" target="BB[16]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="BB[20]" target="BB[21]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="BB[21]" target="BB[13]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="BB[21]" target="BB[13]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="BB[21]" target="BB[22]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="BB[21]" target="BB[18]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="BB[22]" target="BB[23]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="BB[23]" target="BB[24]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="BB[24]" target="BB[-1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

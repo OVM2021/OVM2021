@@ -1,0 +1,649 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="WriteAnimatedWEBPImage">
+    <attributes class="edge" mode="static">
+      <attribute id="3" title="edge_type" type="long" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="nodes" type="string" />
+      <attribute id="1" title="stms" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>16/01/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[0]" label="BB[0]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[4]" label="BB[4]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a8a']" />
+          <attvalue for="1" value="['(bool) = (Image *) != (ANY)']" />
+          <attvalue for="2" value="930" />
+        </attvalues>
+      </node>
+      <node id="BB[-1]" label="BB[-1]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[2]" label="BB[2]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a4b', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a49_cast', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a49']" />
+          <attvalue for="1" value="['(ANY) = (WebPAnimEncoderOptions) . verbose', '(ANY) = (ANY) (int)', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="920" />
+        </attvalues>
+      </node>
+      <node id="BB[5]" label="BB[5]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a94', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a92', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a90']" />
+          <attvalue for="1" value="['(WebPPicture *) =  &amp; (WebPPicture)', '(ANY) = WebPPictureInit( )', '(bool) = (ANY) == (int)']" />
+          <attvalue for="2" value="932" />
+        </attvalues>
+      </node>
+      <node id="BB[6]" label="BB[6]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a98']" />
+          <attvalue for="1" value="['(ANY) = ThrowWriterException( )']" />
+          <attvalue for="2" value="933" />
+        </attvalues>
+      </node>
+      <node id="BB[8]" label="BB[8]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@aba_cast', 'io.shiftleft.codepropertygraph.generated.nodes.Call@aba']" />
+          <attvalue for="1" value="['(unsigned long) = (unsigned long) (int)', '(unsigned long) = (unsigned long)']" />
+          <attvalue for="2" value="939" />
+        </attvalues>
+      </node>
+      <node id="BB[11]" label="BB[11]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a32_cast', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a32']" />
+          <attvalue for="1" value="['(unsigned long) = (unsigned long) (int)', '(unsigned long) = (unsigned long)']" />
+          <attvalue for="2" value="903" />
+        </attvalues>
+      </node>
+      <node id="BB[12]" label="BB[12]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a37_cast', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a37']" />
+          <attvalue for="1" value="['(unsigned long) = (unsigned long) (int)', '(unsigned long) = (unsigned long)']" />
+          <attvalue for="2" value="904" />
+        </attvalues>
+      </node>
+      <node id="BB[13]" label="BB[13]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a41', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a3f']" />
+          <attvalue for="1" value="['(WebPAnimEncoderOptions *) =  &amp; (WebPAnimEncoderOptions)', '(ANY) = WebPAnimEncoderOptionsInit( )']" />
+          <attvalue for="2" value="918" />
+        </attvalues>
+      </node>
+      <node id="BB[14]" label="BB[14]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a45']" />
+          <attvalue for="1" value="['(ANY) = (ImageInfo *) -&gt; verbose']" />
+          <attvalue for="2" value="919" />
+        </attvalues>
+      </node>
+      <node id="BB[15]" label="BB[15]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a53', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a50']" />
+          <attvalue for="1" value="['(ANY) = CoalesceImages( )', '(Image *) = (ANY)']" />
+          <attvalue for="2" value="922" />
+        </attvalues>
+      </node>
+      <node id="BB[16]" label="BB[16]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a57']" />
+          <attvalue for="1" value="['(Image *) = (Image *)']" />
+          <attvalue for="2" value="923" />
+        </attvalues>
+      </node>
+      <node id="BB[17]" label="BB[17]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a65', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a63', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a60', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a6f', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a6d', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a6a', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a74', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a5e', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a5b']" />
+          <attvalue for="1" value="['(ANY) = (Image *) -&gt; page', '(ANY) = (ANY) . width', '(int) =  (int) (ANY)', '(ANY) = (Image *) -&gt; page', '(ANY) = (ANY) . height', '(int) =  (int) (ANY)', '(WebPAnimEncoderOptions *) =  &amp; (WebPAnimEncoderOptions)', '(ANY) = WebPAnimEncoderNew( )', '(WebPAnimEncoder *) = (ANY)']" />
+          <attvalue for="2" value="924" />
+        </attvalues>
+      </node>
+      <node id="BB[18]" label="BB[18]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a81', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a7f', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a7d', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a7a', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a77']" />
+          <attvalue for="1" value="['(PictureMemory) = *(PictureMemory *)', '(int) =  (sizeof) (PictureMemory)', '(ANY) = calloc( )', '(PictureMemory *) =  (PictureMemory *) (ANY)', '(PictureMemory *) = (PictureMemory *)']" />
+          <attvalue for="2" value="927" />
+        </attvalues>
+      </node>
+      <node id="BB[19]" label="BB[19]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@a85']" />
+          <attvalue for="1" value="['(PictureMemory *) = (PictureMemory *)']" />
+          <attvalue for="2" value="928" />
+        </attvalues>
+      </node>
+      <node id="BB[20]" label="BB[20]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@aed', 'io.shiftleft.codepropertygraph.generated.nodes.Call@af1', 'io.shiftleft.codepropertygraph.generated.nodes.Call@aeb']" />
+          <attvalue for="1" value="['(ANY) = (WebPData) . bytes', '(ANY) = (WebPMemoryWriter *) -&gt; mem', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="948" />
+        </attvalues>
+      </node>
+      <node id="BB[21]" label="BB[21]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@af7', 'io.shiftleft.codepropertygraph.generated.nodes.Call@afb', 'io.shiftleft.codepropertygraph.generated.nodes.Call@af5']" />
+          <attvalue for="1" value="['(ANY) = (WebPData) . size', '(ANY) = (WebPMemoryWriter *) -&gt; size', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="949" />
+        </attvalues>
+      </node>
+      <node id="BB[22]" label="BB[22]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@b02', 'io.shiftleft.codepropertygraph.generated.nodes.Call@aff']" />
+          <attvalue for="1" value="['(WebPData *) =  &amp; (WebPData)', '(ANY) = WebPAnimEncoderAssemble( )']" />
+          <attvalue for="2" value="950" />
+        </attvalues>
+      </node>
+      <node id="BB[23]" label="BB[23]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@b05']" />
+          <attvalue for="1" value="['(ANY) = WebPMemoryWriterClear( )']" />
+          <attvalue for="2" value="951" />
+        </attvalues>
+      </node>
+      <node id="BB[24]" label="BB[24]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@b0a', 'io.shiftleft.codepropertygraph.generated.nodes.Call@b0e', 'io.shiftleft.codepropertygraph.generated.nodes.Call@b08']" />
+          <attvalue for="1" value="['(ANY) = (WebPMemoryWriter *) -&gt; size', '(ANY) = (WebPData) . size', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="952" />
+        </attvalues>
+      </node>
+      <node id="BB[25]" label="BB[25]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@b14', 'io.shiftleft.codepropertygraph.generated.nodes.Call@b1b', 'io.shiftleft.codepropertygraph.generated.nodes.Call@b18', 'io.shiftleft.codepropertygraph.generated.nodes.Call@b12_cast', 'io.shiftleft.codepropertygraph.generated.nodes.Call@b12']" />
+          <attvalue for="1" value="['(ANY) = (WebPMemoryWriter *) -&gt; mem', '(ANY) = (WebPData) . bytes', '(unsigned char *) =  (unsigned char *) (ANY)', '(ANY) = (ANY) (unsigned char *)', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="953" />
+        </attvalues>
+      </node>
+      <node id="BB[26]" label="BB[26]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@b1f']" />
+          <attvalue for="1" value="['(ANY) = WebPAnimEncoderDelete( )']" />
+          <attvalue for="2" value="954" />
+        </attvalues>
+      </node>
+      <node id="BB[27]" label="BB[27]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@b22']" />
+          <attvalue for="1" value="['(ANY) = DestroyImageList( )']" />
+          <attvalue for="2" value="955" />
+        </attvalues>
+      </node>
+      <node id="BB[28]" label="BB[28]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@b25']" />
+          <attvalue for="1" value="['(void) = FreePictureMemoryList( )']" />
+          <attvalue for="2" value="956" />
+        </attvalues>
+      </node>
+      <node id="BB[29]" label="BB[29]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Return@b28']" />
+          <attvalue for="1" value="['return']" />
+          <attvalue for="2" value="957" />
+        </attvalues>
+      </node>
+      <node id="BB[30]" label="BB[30]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@abe']" />
+          <attvalue for="1" value="['(unsigned long) = (unsigned long) += (unsigned long)']" />
+          <attvalue for="2" value="940" />
+        </attvalues>
+      </node>
+      <node id="BB[31]" label="BB[31]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@ac5', 'io.shiftleft.codepropertygraph.generated.nodes.Call@ac8', 'io.shiftleft.codepropertygraph.generated.nodes.Call@ac2']" />
+          <attvalue for="1" value="['(WebPPicture *) =  &amp; (WebPPicture)', '(int) =  (int) (unsigned long)', '(ANY) = WebPAnimEncoderAdd( )']" />
+          <attvalue for="2" value="942" />
+        </attvalues>
+      </node>
+      <node id="BB[32]" label="BB[32]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@ad0', 'io.shiftleft.codepropertygraph.generated.nodes.Call@acd']" />
+          <attvalue for="1" value="['(ANY) = GetNextImageInList( )', '(Image *) = (ANY)']" />
+          <attvalue for="2" value="944" />
+        </attvalues>
+      </node>
+      <node id="BB[33]" label="BB[33]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@ad5', 'io.shiftleft.codepropertygraph.generated.nodes.Call@ae0', 'io.shiftleft.codepropertygraph.generated.nodes.Call@ade', 'io.shiftleft.codepropertygraph.generated.nodes.Call@adc', 'io.shiftleft.codepropertygraph.generated.nodes.Call@ad9', 'io.shiftleft.codepropertygraph.generated.nodes.Call@ad3_cast', 'io.shiftleft.codepropertygraph.generated.nodes.Call@ad3']" />
+          <attvalue for="1" value="['(ANY) = (PictureMemory *) -&gt; next', '(PictureMemory) = *(PictureMemory *)', '(int) =  (sizeof) (PictureMemory)', '(ANY) = calloc( )', '(PictureMemory *) =  (PictureMemory *) (ANY)', '(ANY) = (ANY) (PictureMemory *)', '(ANY) = (ANY)']" />
+          <attvalue for="2" value="945" />
+        </attvalues>
+      </node>
+      <node id="BB[34]" label="BB[34]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@ae7', 'io.shiftleft.codepropertygraph.generated.nodes.Call@ae4']" />
+          <attvalue for="1" value="['(ANY) = (PictureMemory *) -&gt; next', '(PictureMemory *) = (ANY)']" />
+          <attvalue for="2" value="946" />
+        </attvalues>
+      </node>
+      <node id="BB[35]" label="BB[35]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@aa0', 'io.shiftleft.codepropertygraph.generated.nodes.Call@a9c']" />
+          <attvalue for="1" value="['(WebPPicture *) =  &amp; (WebPPicture)', '(MagickBooleanType) = WriteSingleWEBPImage( )']" />
+          <attvalue for="2" value="935" />
+        </attvalues>
+      </node>
+      <node id="BB[36]" label="BB[36]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@aaa', 'io.shiftleft.codepropertygraph.generated.nodes.Call@ab1', 'io.shiftleft.codepropertygraph.generated.nodes.Call@aae', 'io.shiftleft.codepropertygraph.generated.nodes.Call@aa8', 'io.shiftleft.codepropertygraph.generated.nodes.Call@aa5_cast', 'io.shiftleft.codepropertygraph.generated.nodes.Call@aa5']" />
+          <attvalue for="1" value="['(ANY) = (Image *) -&gt; delay', '(ANY) = (Image *) -&gt; ticks_per_second', '(int) = (int) / (ANY)', '(int) = (ANY) * (int)', '(unsigned long) = (unsigned long) (int)', '(unsigned long) = (unsigned long)']" />
+          <attvalue for="2" value="937" />
+        </attvalues>
+      </node>
+      <node id="BB[37]" label="BB[37]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@ab6']" />
+          <attvalue for="1" value="['(bool) = (unsigned long) &lt; (int)']" />
+          <attvalue for="2" value="938" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[0]" target="BB[11]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="BB[4]" target="BB[5]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="BB[4]" target="BB[5]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="BB[4]" target="BB[20]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="BB[4]" target="BB[35]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="BB[4]" target="BB[36]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="BB[4]" target="BB[37]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="BB[4]" target="BB[30]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="BB[4]" target="BB[31]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="BB[4]" target="BB[32]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="BB[4]" target="BB[33]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="BB[4]" target="BB[34]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="BB[2]" target="BB[15]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="BB[5]" target="BB[6]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="BB[5]" target="BB[6]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="BB[5]" target="BB[35]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="BB[6]" target="BB[35]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="BB[8]" target="BB[30]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="BB[8]" target="BB[30]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="BB[11]" target="BB[12]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="BB[12]" target="BB[13]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="BB[12]" target="BB[30]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="BB[13]" target="BB[14]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="BB[14]" target="BB[2]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="BB[14]" target="BB[2]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="BB[14]" target="BB[15]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="BB[15]" target="BB[16]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="BB[15]" target="BB[16]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="BB[15]" target="BB[17]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="BB[15]" target="BB[4]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="BB[15]" target="BB[36]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="BB[15]" target="BB[35]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="BB[15]" target="BB[32]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="BB[16]" target="BB[17]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="BB[16]" target="BB[27]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="BB[17]" target="BB[18]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="BB[17]" target="BB[22]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="BB[17]" target="BB[26]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="BB[17]" target="BB[31]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="BB[18]" target="BB[19]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="BB[18]" target="BB[19]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="BB[18]" target="BB[33]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="BB[18]" target="BB[28]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="BB[19]" target="BB[4]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="BB[19]" target="BB[33]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="BB[19]" target="BB[34]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="BB[19]" target="BB[35]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="BB[20]" target="BB[21]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="BB[20]" target="BB[25]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="BB[21]" target="BB[22]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="BB[21]" target="BB[24]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="BB[22]" target="BB[23]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="BB[23]" target="BB[24]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="BB[24]" target="BB[25]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="BB[25]" target="BB[26]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="BB[26]" target="BB[27]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="BB[27]" target="BB[28]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="BB[28]" target="BB[29]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="BB[29]" target="BB[-1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="BB[30]" target="BB[31]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="BB[30]" target="BB[31]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="BB[31]" target="BB[32]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="BB[32]" target="BB[33]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="BB[32]" target="BB[4]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="BB[32]" target="BB[35]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="BB[32]" target="BB[36]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="BB[33]" target="BB[34]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="BB[33]" target="BB[34]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="BB[34]" target="BB[4]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="BB[34]" target="BB[35]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="BB[34]" target="BB[33]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="BB[35]" target="BB[36]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="BB[36]" target="BB[37]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="BB[36]" target="BB[37]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="BB[36]" target="BB[30]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="BB[37]" target="BB[8]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="BB[37]" target="BB[8]" type="cdg">
+        <attvalues>
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="BB[37]" target="BB[30]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

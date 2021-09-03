@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="LevelPixel">
+    <attributes class="edge" mode="static">
+      <attribute id="3" title="edge_type" type="long" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="nodes" type="string" />
+      <attribute id="1" title="stms" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>16/01/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[0]" label="BB[0]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[-1]" label="BB[-1]">
+        <attvalues>
+          <attvalue for="0" value="[]" />
+          <attvalue for="1" value="[]" />
+          <attvalue for="2" value="" />
+        </attvalues>
+      </node>
+      <node id="BB[2]" label="BB[2]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@4b7a', 'io.shiftleft.codepropertygraph.generated.nodes.Call@4b78', 'io.shiftleft.codepropertygraph.generated.nodes.Call@4b75']" />
+          <attvalue for="1" value="['() = (double) - (double)', '(ANY) = PerceptibleReciprocal( )', '(double) = (ANY)']" />
+          <attvalue for="2" value="3460" />
+        </attvalues>
+      </node>
+      <node id="BB[3]" label="BB[3]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Call@4b8b', 'io.shiftleft.codepropertygraph.generated.nodes.Call@4b89', 'io.shiftleft.codepropertygraph.generated.nodes.Call@4b86', 'io.shiftleft.codepropertygraph.generated.nodes.Call@4b90', 'io.shiftleft.codepropertygraph.generated.nodes.Call@4b84', 'io.shiftleft.codepropertygraph.generated.nodes.Call@4b81', 'io.shiftleft.codepropertygraph.generated.nodes.Call@4b7e_cast', 'io.shiftleft.codepropertygraph.generated.nodes.Call@4b7e']" />
+          <attvalue for="1" value="['(double) =  (double) (double)', '() = (double) - (double)', '() = (double) * ()', '(ANY) = PerceptibleReciprocal( )', '(double) = gamma_pow( )', '() = (ANY) * (double)', '(double) = (double) ()', '(double) = (double)']" />
+          <attvalue for="2" value="3461" />
+        </attvalues>
+      </node>
+      <node id="BB[4]" label="BB[4]">
+        <attvalues>
+          <attvalue for="0" value="['io.shiftleft.codepropertygraph.generated.nodes.Return@4b93']" />
+          <attvalue for="1" value="['return']" />
+          <attvalue for="2" value="3463" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[0]" target="BB[2]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="BB[2]" target="BB[3]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="BB[2]" target="BB[3]" type="pdg">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="BB[3]" target="BB[4]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="BB[4]" target="BB[-1]" type="cfg">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="stms" type="string" />
+      <attribute id="1" title="important" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>01/09/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[5]" label="BB[5]">
+        <attvalues>
+          <attvalue for="0" value="['(double) =  (double) (double)', '() = (double) - (double)', '() = (double) * ()', '(int) = (int) / (double)', '(double) = gamma_pow( )', '() = (ANY) * (double)', '(double) = (double) ()', '(double) = (double)']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="2945" />
+        </attvalues>
+      </node>
+      <node id="BB[1]" label="BB[1]">
+        <attvalues>
+          <attvalue for="0" value="['() = (double) - (double)', '(ANY) = fabs( )', '(bool) = (ANY) &lt; (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="2942" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[1]" target="BB[5]" />
+    </edges>
+  </graph>
+</gexf>

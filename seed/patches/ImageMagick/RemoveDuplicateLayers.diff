@@ -1,0 +1,22 @@
+diff --git a/MagickCore/layer.c b/MagickCore/layer.c
+@@ -1584,45 +1584,47 @@ MagickExport void RemoveDuplicateLayers(Image **images,ExceptionInfo *exception)
+    if (bounds.x < 0) 
+      {    
+        /*   
+          Two images are the same, merge time delays and delete one.
+        */
+        size_t
+          time;
+
+-        time=(size_t) (1000.0*image->delay/image->ticks_per_second);
+-        time+=(size_t) (1000.0*next->delay/next->ticks_per_second);
++        time=(size_t) (1000.0*image->delay*
++          PerceptibleReciprocal((double) image->ticks_per_second));
++        time+=(size_t) (1000.0*next->delay*
++          PerceptibleReciprocal((double) next->ticks_per_second));
+        next->ticks_per_second=100L;
+        next->delay=time*image->ticks_per_second/1000;
+        next->iterations=image->iterations;
+        *images=image;
+        (void) DeleteImageFromList(images);
+      }    

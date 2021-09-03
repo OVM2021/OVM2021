@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="stms" type="string" />
+      <attribute id="1" title="important" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>11/04/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[8]" label="BB[8]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (mrb_irep *) -&gt; reps', '(ANY) = (ANY) [ (int) ]']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="135" />
+        </attvalues>
+      </node>
+      <node id="BB[20]" label="BB[20]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (mrb_irep *) -&gt; reps', '(ANY) = mrb_free( )']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="138" />
+        </attvalues>
+      </node>
+      <node id="BB[10]" label="BB[10]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (mrb_irep *) -&gt; reps', '(ANY) = (ANY) [ (int) ]', '(void) = mrb_irep_decref( )']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="136" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[8]" target="BB[10]" />
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="stms" type="string" />
+      <attribute id="1" title="important" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>01/09/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[230]" label="BB[230]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = GetPixelRed( )', '(unsigned long) =  (unsigned long) (ANY)', '(long) = (int) * (unsigned long)', '(unsigned long) =  (unsigned long) (ANY)', '(long) = (long) / (unsigned long)', '(long) = (long) &lt;&lt; (int)', '(ANY) = GetPixelGreen( )', '(unsigned long) =  (unsigned long) (ANY)', '(long) = (int) * (unsigned long)', '(unsigned long) =  (unsigned long) (ANY)', '(long) = (long) / (unsigned long)', '(long) = (long) &lt;&lt; (int)', '(ANY) = GetPixelBlue( )', '(unsigned long) =  (unsigned long) (ANY)', '(long) = (int) * (unsigned long)', '(unsigned long) =  (unsigned long) (ANY)', '(long) = (long) / (unsigned long)', '(long) = (long) | (long)', '(long) = (long) | (long)', '(unsigned short) =  (unsigned short) (long)', '(unsigned short) = (unsigned short)']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="883" />
+        </attvalues>
+      </node>
+      <node id="BB[235]" label="BB[235]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = GetPixelChannels( )', '() = (Quantum *) += (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="897" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[230]" target="BB[235]" />
+      <edge id="1" source="BB[235]" target="BB[230]" />
+    </edges>
+  </graph>
+</gexf>

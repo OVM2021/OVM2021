@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="stms" type="string" />
+      <attribute id="1" title="important" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>01/09/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[6]" label="BB[6]">
+        <attvalues>
+          <attvalue for="0" value="['(bool) = (bool) || (bool)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1604" />
+        </attvalues>
+      </node>
+      <node id="BB[26]" label="BB[26]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (Image *) -&gt; delay', '(ANY) = (Image *) -&gt; ticks_per_second', '(int) = (int) / (ANY)', '(int) = (ANY) * (int)', '(long) = (unsigned long) += (int)']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="1614" />
+        </attvalues>
+      </node>
+      <node id="BB[25]" label="BB[25]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (Image *) -&gt; delay', '(ANY) = (Image *) -&gt; ticks_per_second', '(int) = (int) / (ANY)', '(int) = (ANY) * (int)', '(unsigned long) = (unsigned long) (int)', '(unsigned long) = (unsigned long)']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="1613" />
+        </attvalues>
+      </node>
+      <node id="BB[5]" label="BB[5]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (Image *) -&gt; columns', '(ANY) = (Image *) -&gt; columns', '(bool) = (ANY) != (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1604" />
+        </attvalues>
+      </node>
+      <node id="BB[4]" label="BB[4]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = GetNextImageInList( )', '(Image *) = (ANY)', '(Image *) =  (Image *) (ANY)', '(bool) = (bool) != (Image *)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1602" />
+        </attvalues>
+      </node>
+      <node id="BB[28]" label="BB[28]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (Image *) -&gt; delay', '(ANY) = (Image *) -&gt; ticks_per_second', '(int) = (ANY) / (int)', '(long) = (unsigned long) * (int)', '(ANY) = (ANY) (long)', '(ANY) = (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1616" />
+        </attvalues>
+      </node>
+      <node id="BB[27]" label="BB[27]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (Image *) -&gt; ticks_per_second', '(ANY) = (ANY) (long)', '(ANY) = (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1615" />
+        </attvalues>
+      </node>
+      <node id="BB[8]" label="BB[8]">
+        <attvalues>
+          <attvalue for="0" value="['(Image *) = (Image *)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1602" />
+        </attvalues>
+      </node>
+      <node id="BB[24]" label="BB[24]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (RectangleInfo) . x', '(bool) = (ANY) &lt; (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1608" />
+        </attvalues>
+      </node>
+      <node id="BB[22]" label="BB[22]">
+        <attvalues>
+          <attvalue for="0" value="['(Image) = *(Image *)', '(ANY) = GetFirstImageInList( )', '(Image *) = (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1601" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[6]" target="BB[24]" />
+      <edge id="1" source="BB[26]" target="BB[28]" />
+      <edge id="2" source="BB[26]" target="BB[27]" />
+      <edge id="3" source="BB[25]" target="BB[26]" />
+      <edge id="4" source="BB[5]" target="BB[6]" />
+      <edge id="5" source="BB[4]" target="BB[6]" />
+      <edge id="6" source="BB[4]" target="BB[26]" />
+      <edge id="7" source="BB[4]" target="BB[5]" />
+      <edge id="8" source="BB[4]" target="BB[28]" />
+      <edge id="9" source="BB[4]" target="BB[27]" />
+      <edge id="10" source="BB[4]" target="BB[8]" />
+      <edge id="11" source="BB[28]" target="BB[26]" />
+      <edge id="12" source="BB[27]" target="BB[26]" />
+      <edge id="13" source="BB[27]" target="BB[28]" />
+      <edge id="14" source="BB[8]" target="BB[5]" />
+      <edge id="15" source="BB[8]" target="BB[4]" />
+      <edge id="16" source="BB[8]" target="BB[25]" />
+      <edge id="17" source="BB[8]" target="BB[28]" />
+      <edge id="18" source="BB[24]" target="BB[26]" />
+      <edge id="19" source="BB[24]" target="BB[25]" />
+      <edge id="20" source="BB[24]" target="BB[28]" />
+      <edge id="21" source="BB[24]" target="BB[27]" />
+      <edge id="22" source="BB[24]" target="BB[8]" />
+      <edge id="23" source="BB[22]" target="BB[5]" />
+      <edge id="24" source="BB[22]" target="BB[4]" />
+      <edge id="25" source="BB[22]" target="BB[25]" />
+      <edge id="26" source="BB[22]" target="BB[28]" />
+    </edges>
+  </graph>
+</gexf>

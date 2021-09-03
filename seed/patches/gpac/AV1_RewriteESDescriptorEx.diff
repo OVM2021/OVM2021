@@ -1,0 +1,10 @@
+diff --git a/src/isomedia/avc_ext.c b/src/isomedia/avc_ext.c
+@@ -1382,7 +1383,7 @@ void AV1_RewriteESDescriptorEx(GF_MPEGVisualSampleEntryBox *av1, GF_MediaBox *mdia)
+		av1->emul_esd->decoderConfig->avgBitrate = btrt->avgBitrate;
+		av1->emul_esd->decoderConfig->maxBitrate = btrt->maxBitrate;
+	}
+-	if (av1->av1_config) {
++	if (av1->av1_config && av1->av1_config->config) {
+		GF_AV1Config *av1_cfg = AV1_DuplicateConfig(av1->av1_config->config);
+		if (av1_cfg) {
+			gf_odf_av1_cfg_write(av1_cfg, &av1->emul_esd->decoderConfig->decoderSpecificInfo->data, &av1->emul_esd->decoderConfig->decoderSpecificInfo->dataLength);

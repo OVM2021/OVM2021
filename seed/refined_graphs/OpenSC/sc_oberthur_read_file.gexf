@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="stms" type="string" />
+      <attribute id="1" title="important" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>26/05/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[39]" label="BB[39]">
+        <attvalues>
+          <attvalue for="0" value="['(bool) = (int) &lt; (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1679" />
+        </attvalues>
+      </node>
+      <node id="BB[80]" label="BB[80]">
+        <attvalues>
+          <attvalue for="0" value="['(int) = (int)++']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1673" />
+        </attvalues>
+      </node>
+      <node id="BB[84]" label="BB[84]">
+        <attvalues>
+          <attvalue for="0" value="['(int) = (int) + (int)', '(int) = (int) += (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1688" />
+        </attvalues>
+      </node>
+      <node id="BB[82]" label="BB[82]">
+        <attvalues>
+          <attvalue for="0" value="['(unsigned char) = *(unsigned char *)', '(int) = (unsigned char) + (int)', '(int) = *(int)', u'(int) = (int) (char)', '(int) = (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1685" />
+        </attvalues>
+      </node>
+      <node id="BB[90]" label="BB[90]">
+        <attvalues>
+          <attvalue for="0" value="['(bool) = (int) &lt; (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1732" />
+        </attvalues>
+      </node>
+      <node id="BB[94]" label="BB[94]">
+        <attvalues>
+          <attvalue for="0" value="['(unsigned char) = *(unsigned char *)', u'(ANY) = free( )']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1733" />
+        </attvalues>
+      </node>
+      <node id="BB[96]" label="BB[96]">
+        <attvalues>
+          <attvalue for="0" value="['(unsigned long) = *(unsigned long *)', '(unsigned long) = (unsigned long) (int)', '(unsigned long) = (unsigned long)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1735" />
+        </attvalues>
+      </node>
+      <node id="BB[15]" label="BB[15]">
+        <attvalues>
+          <attvalue for="0" value="['(bool) = (int) &amp;&amp; (bool)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1695" />
+        </attvalues>
+      </node>
+      <node id="BB[42]" label="BB[42]">
+        <attvalues>
+          <attvalue for="0" value="['(unsigned long) = (unsigned long) (int)', '(unsigned long) = (unsigned long)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1691" />
+        </attvalues>
+      </node>
+      <node id="BB[88]" label="BB[88]">
+        <attvalues>
+          <attvalue for="0" value="[u'(bool) = (int) == (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1675" />
+        </attvalues>
+      </node>
+      <node id="BB[43]" label="BB[43]">
+        <attvalues>
+          <attvalue for="0" value="['(int) = (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1676" />
+        </attvalues>
+      </node>
+      <node id="BB[98]" label="BB[98]">
+        <attvalues>
+          <attvalue for="0" value="['(unsigned char) = *(unsigned char *)', u'(bool) = (unsigned char) == (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1655" />
+        </attvalues>
+      </node>
+      <node id="BB[59]" label="BB[59]">
+        <attvalues>
+          <attvalue for="0" value="[u'(struct sc_file *) = (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1615" />
+        </attvalues>
+      </node>
+      <node id="BB[81]" label="BB[81]">
+        <attvalues>
+          <attvalue for="0" value="['(int) = (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1683" />
+        </attvalues>
+      </node>
+      <node id="BB[67]" label="BB[67]">
+        <attvalues>
+          <attvalue for="0" value="['(int) = (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1670" />
+        </attvalues>
+      </node>
+      <node id="BB[14]" label="BB[14]">
+        <attvalues>
+          <attvalue for="0" value="[u'(bool) = (int) == (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1695" />
+        </attvalues>
+      </node>
+      <node id="BB[13]" label="BB[13]">
+        <attvalues>
+          <attvalue for="0" value="[u'(ANY) = sc_log( )']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1694" />
+        </attvalues>
+      </node>
+      <node id="BB[83]" label="BB[83]">
+        <attvalues>
+          <attvalue for="0" value="['(unsigned char) = *(unsigned char *)', '(int) = (int) + (int)', '(int) = (unsigned char) + (int)', '(int) = *(int)', '(int) = (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1686" />
+        </attvalues>
+      </node>
+      <node id="BB[95]" label="BB[95]">
+        <attvalues>
+          <attvalue for="0" value="['(unsigned char) = *(unsigned char *)', u'(unsigned char) = (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1734" />
+        </attvalues>
+      </node>
+      <node id="BB[87]" label="BB[87]">
+        <attvalues>
+          <attvalue for="0" value="['(unsigned char) = *(unsigned char *)', '(int) = (int) + (int)', '(int) = (unsigned char) + (int)', u'(ANY) = sc_read_record( )', '(int) = (ANY)']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="1674" />
+        </attvalues>
+      </node>
+      <node id="BB[11]" label="BB[11]">
+        <attvalues>
+          <attvalue for="0" value="[u'(ANY) = (struct sc_file *) -&gt; ef_structure', u'(bool) = (ANY) == (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1665" />
+        </attvalues>
+      </node>
+      <node id="BB[69]" label="BB[69]">
+        <attvalues>
+          <attvalue for="0" value="['(int) = (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1673" />
+        </attvalues>
+      </node>
+      <node id="BB[18]" label="BB[18]">
+        <attvalues>
+          <attvalue for="0" value="['(unsigned long) = *(unsigned long *)', '(unsigned long) = (unsigned long)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1738" />
+        </attvalues>
+      </node>
+      <node id="BB[68]" label="BB[68]">
+        <attvalues>
+          <attvalue for="0" value="[u'(ANY) = (struct sc_file *) -&gt; record_length', '(int) = (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1671" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[39]" target="BB[81]" />
+      <edge id="1" source="BB[39]" target="BB[80]" />
+      <edge id="2" source="BB[39]" target="BB[84]" />
+      <edge id="3" source="BB[39]" target="BB[82]" />
+      <edge id="4" source="BB[39]" target="BB[88]" />
+      <edge id="5" source="BB[39]" target="BB[83]" />
+      <edge id="6" source="BB[39]" target="BB[87]" />
+      <edge id="7" source="BB[80]" target="BB[81]" />
+      <edge id="8" source="BB[84]" target="BB[42]" />
+      <edge id="9" source="BB[84]" target="BB[87]" />
+      <edge id="10" source="BB[84]" target="BB[82]" />
+      <edge id="11" source="BB[84]" target="BB[83]" />
+      <edge id="12" source="BB[82]" target="BB[83]" />
+      <edge id="13" source="BB[90]" target="BB[95]" />
+      <edge id="14" source="BB[90]" target="BB[94]" />
+      <edge id="15" source="BB[90]" target="BB[96]" />
+      <edge id="16" source="BB[90]" target="BB[18]" />
+      <edge id="17" source="BB[94]" target="BB[95]" />
+      <edge id="18" source="BB[96]" target="BB[18]" />
+      <edge id="19" source="BB[15]" target="BB[18]" />
+      <edge id="20" source="BB[15]" target="BB[90]" />
+      <edge id="21" source="BB[42]" target="BB[13]" />
+      <edge id="22" source="BB[42]" target="BB[18]" />
+      <edge id="23" source="BB[88]" target="BB[39]" />
+      <edge id="24" source="BB[88]" target="BB[43]" />
+      <edge id="25" source="BB[43]" target="BB[42]" />
+      <edge id="26" source="BB[43]" target="BB[14]" />
+      <edge id="27" source="BB[43]" target="BB[13]" />
+      <edge id="28" source="BB[43]" target="BB[90]" />
+      <edge id="29" source="BB[98]" target="BB[15]" />
+      <edge id="30" source="BB[98]" target="BB[11]" />
+      <edge id="31" source="BB[98]" target="BB[13]" />
+      <edge id="32" source="BB[59]" target="BB[68]" />
+      <edge id="33" source="BB[59]" target="BB[11]" />
+      <edge id="34" source="BB[81]" target="BB[87]" />
+      <edge id="35" source="BB[81]" target="BB[82]" />
+      <edge id="36" source="BB[67]" target="BB[68]" />
+      <edge id="37" source="BB[67]" target="BB[42]" />
+      <edge id="38" source="BB[67]" target="BB[87]" />
+      <edge id="39" source="BB[67]" target="BB[82]" />
+      <edge id="40" source="BB[67]" target="BB[83]" />
+      <edge id="41" source="BB[14]" target="BB[15]" />
+      <edge id="42" source="BB[13]" target="BB[15]" />
+      <edge id="43" source="BB[13]" target="BB[14]" />
+      <edge id="44" source="BB[83]" target="BB[84]" />
+      <edge id="45" source="BB[95]" target="BB[96]" />
+      <edge id="46" source="BB[87]" target="BB[14]" />
+      <edge id="47" source="BB[87]" target="BB[13]" />
+      <edge id="48" source="BB[87]" target="BB[81]" />
+      <edge id="49" source="BB[87]" target="BB[39]" />
+      <edge id="50" source="BB[87]" target="BB[83]" />
+      <edge id="51" source="BB[87]" target="BB[84]" />
+      <edge id="52" source="BB[87]" target="BB[88]" />
+      <edge id="53" source="BB[87]" target="BB[90]" />
+      <edge id="54" source="BB[11]" target="BB[87]" />
+      <edge id="55" source="BB[11]" target="BB[67]" />
+      <edge id="56" source="BB[11]" target="BB[88]" />
+      <edge id="57" source="BB[11]" target="BB[42]" />
+      <edge id="58" source="BB[11]" target="BB[68]" />
+      <edge id="59" source="BB[11]" target="BB[69]" />
+      <edge id="60" source="BB[69]" target="BB[87]" />
+      <edge id="61" source="BB[69]" target="BB[80]" />
+      <edge id="62" source="BB[68]" target="BB[87]" />
+      <edge id="63" source="BB[68]" target="BB[69]" />
+    </edges>
+  </graph>
+</gexf>

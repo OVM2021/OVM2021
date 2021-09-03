@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="stms" type="string" />
+      <attribute id="1" title="important" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>01/09/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[56]" label="BB[56]">
+        <attvalues>
+          <attvalue for="0" value="['(Bool) = (Bool) (int)', '(Bool) = (Bool)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1449" />
+        </attvalues>
+      </node>
+      <node id="BB[21]" label="BB[21]">
+        <attvalues>
+          <attvalue for="0" value="['(bool) = (unsigned int) == (int)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1449" />
+        </attvalues>
+      </node>
+      <node id="BB[126]" label="BB[126]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (GF_ESD *) -&gt; decoderConfig', '(ANY) = (ANY) -&gt; streamType', '(unsigned int) = (ANY)']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="1441" />
+        </attvalues>
+      </node>
+      <node id="BB[108]" label="BB[108]">
+        <attvalues>
+          <attvalue for="0" value="['(int) = (unsigned int) + (int)', '(ANY) = gf_isom_get_esd( )', '(GF_ESD *) = (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1439" />
+        </attvalues>
+      </node>
+      <node id="BB[49]" label="BB[49]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = (GF_ISOSample *) -&gt; data', '(ANY) = (GF_ISOSample *) -&gt; dataLength', '(ANY) = gf_hinter_can_embbed_data( )', '(unsigned int) = (ANY)']" />
+          <attvalue for="1" value="T" />
+          <attvalue for="2" value="1458" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[21]" target="BB[56]" />
+      <edge id="1" source="BB[126]" target="BB[49]" />
+      <edge id="2" source="BB[126]" target="BB[21]" />
+      <edge id="3" source="BB[108]" target="BB[126]" />
+    </edges>
+  </graph>
+</gexf>

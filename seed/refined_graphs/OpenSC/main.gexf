@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="stms" type="string" />
+      <attribute id="1" title="important" type="string" />
+      <attribute id="2" title="lines" type="string" />
+    </attributes>
+    <meta>
+      <creator>NetworkX 2.2</creator>
+      <lastmodified>26/05/2021</lastmodified>
+    </meta>
+    <nodes>
+      <node id="BB[23]" label="BB[23]">
+        <attvalues>
+          <attvalue for="0" value="['(sc_context_t * *) =  &amp; (sc_context_t *)', '(sc_context_param_t *) =  &amp; (sc_context_param_t)', '(ANY) = sc_context_create( )', '(int) = (ANY)']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="456" />
+        </attvalues>
+      </node>
+      <node id="BB[3]" label="BB[3]">
+        <attvalues>
+          <attvalue for="0" value="['(sc_card_t * *) =  &amp; (sc_card_t *)', '(ANY) = util_connect_card( )', '(int) = (ANY)']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="462" />
+        </attvalues>
+      </node>
+      <node id="BB[4]" label="BB[4]">
+        <attvalues>
+          <attvalue for="0" value="['(ANY) = sc_strerror( )', '(ANY) = fprintf( )']" />
+          <attvalue for="1" value="0" />
+          <attvalue for="2" value="464" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BB[23]" target="BB[3]" />
+      <edge id="1" source="BB[3]" target="BB[4]" />
+    </edges>
+  </graph>
+</gexf>
